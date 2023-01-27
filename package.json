@@ -1,13 +1,14 @@
 {
   "name": "@umbrik/webtutor-types",
-  "version": "7.44.0",
+  "version": "7.46.0",
   "description": "## Подключение к проекту",
   "main": "index.js",
   "directories": {
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
